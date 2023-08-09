@@ -26,7 +26,6 @@ def get_computer_city(previous_city):
             return city
     return None
 
-
 with open('cities.txt', 'r', encoding='utf-8') as file:
     cities_list = [line.strip() for line in file]
 
